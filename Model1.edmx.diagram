@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9174610fb7564b88bd575a7b4271cc43" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="wizbudatabaseModel.Analiz" Width="1.5" PointX="7.5" PointY="1.375" />
+        <EntityTypeShape EntityType="wizbudatabaseModel.BildigiDiller" Width="1.5" PointX="0.75" PointY="1.5" />
+        <EntityTypeShape EntityType="wizbudatabaseModel.Gorev_Personel" Width="1.5" PointX="5.25" PointY="1" />
+        <EntityTypeShape EntityType="wizbudatabaseModel.Gorevler" Width="1.5" PointX="3" PointY="5.5" />
+        <EntityTypeShape EntityType="wizbudatabaseModel.Patron" Width="1.5" PointX="5.75" PointY="4.75" />
+        <EntityTypeShape EntityType="wizbudatabaseModel.Personel" Width="1.5" PointX="3" PointY="1.125" />
+        <EntityTypeShape EntityType="wizbudatabaseModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="4.75" />
+        <EntityTypeShape EntityType="wizbudatabaseModel.Yapilan" Width="1.5" PointX="5.75" PointY="7.75" />
+        <AssociationConnector Association="wizbudatabaseModel.FK_Analiz_Gorev_Personel" />
+        <AssociationConnector Association="wizbudatabaseModel.FK_Personel_BildigiDiller" />
+        <AssociationConnector Association="wizbudatabaseModel.FK_Gorev_Personel_Gorevler" />
+        <AssociationConnector Association="wizbudatabaseModel.FK_Gorev_Personel_Personel" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
